@@ -114,17 +114,6 @@ A aplicação estará disponível em: [http://localhost:3000](http://localhost:3
 3. **Excluir uma tarefa**: Clique no botão "Excluir" ao lado da tarefa que deseja remover
 4. **Cancelar edição**: Durante a edição, clique em "Cancelar" para descartar as alterações
 
-## 🎨 Capturas de Tela
-
-### Tela Principal
-![Tela Principal](./screenshots/home.png)
-
-### Adicionar Tarefa
-![Adicionar Tarefa](./screenshots/adicionar.png)
-
-### Editando Tarefa
-![Editando Tarefa](./screenshots/editar.png)
-
 ## 📝 Aprendizados
 
 Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
