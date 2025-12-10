@@ -1,0 +1,51 @@
+.item-tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.item-tarefa:hover {
+  background: #f0f1f3;
+  border-color: #667eea;
+  transform: translateX(4px);
+}
+
+.item-tarefa span {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+  word-break: break-word;
+}
+
+.item-tarefa-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-editar {
+  background-color: #ffa726;
+  color: white;
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+.btn-editar:hover {
+  background-color: #fb8c00;
+}
+
+.btn-excluir {
+  background-color: #ef5350;
+  color: white;
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+.btn-excluir:hover {
+  background-color: #e53935;
+}

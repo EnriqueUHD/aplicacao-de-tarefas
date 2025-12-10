@@ -1,0 +1,65 @@
+.home-container {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.home-header h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+
+.edit-box {
+  background-color: #6366f1;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+}
+
+.edit-label {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 12px;
+  display: block;
+  font-weight: 600;
+}
+
+.edit-input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-input-group input {
+  flex: 1;
+}
+
+.btn-salvar {
+  background-color: #10b981;
+  padding: 12px 24px;
+}
+
+.btn-salvar:hover {
+  background-color: #059669;
+}
+
+.btn-cancelar {
+  background-color: #6b7280;
+  padding: 12px 24px;
+}
+
+.btn-cancelar:hover {
+  background-color: #4b5563;
+}

@@ -1,0 +1,54 @@
+.adicionar-container {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.adicionar-container h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.btn-submit {
+  background-color: #667eea;
+  padding: 12px 32px;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #5568d3;
+}
+
+.btn-voltar {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.btn-voltar:hover {
+  background-color: #d5d5d5;
+}
